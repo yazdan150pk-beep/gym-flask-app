@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Power Gym</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo"><strong>Power Gym</strong></div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/membership">Membership</a>
+    </div>
+</div>
+
+<div class="hero">
+    <h1>💪 Welcome to Power Gym</h1>
+    <p>Train Hard. Stay Fit. Never Quit.</p>
+    <img src="{{ url_for('static', filename='images/gym.jpg') }}" class="gym-img">
+</div>
+
+</body>
+</html>
